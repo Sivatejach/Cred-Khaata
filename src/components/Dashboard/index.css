@@ -1,0 +1,50 @@
+.dashboard-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .dashboard-table th {
+    background-color: #f4f4f4;
+    color: #555;
+  }
+  
+  .dashboard-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-table td {
+    font-weight: 500;
+  }
+  
+  .dashboard-table td:last-child {
+    font-weight: bold;
+    color: green; /* Default status color */
+  }
+  
+  .dashboard-table td.Overdue {
+    color: red;
+  }
+  
