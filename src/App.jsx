@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
-import Dashboard from "./components/DashBoard";
+import DashBoard from "./components/DashBoard";
 import AddCustomerForm from './components/Forms/AddCustomerForm';
 import AddLoanForm from './components/Forms/AddLoanForm';
 import RepaymentForm from './components/Forms/RepaymentForm';
@@ -27,7 +27,7 @@ const App = () => {
           path="/"
           element={
             <ProtectedRoute authState={authState}>
-              <Dashboard />
+              <DashBoard />
             </ProtectedRoute>
           }
         />
